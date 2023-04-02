@@ -1,0 +1,5 @@
+SELECT p.Name AS 'Имя продукта', c.Name AS 'Имя категории'
+FROM Products p
+LEFT JOIN ProductCategory pc ON p.ProductID = pc.ProductID
+LEFT JOIN Categories c ON pc.CategoryID = c.CategoryID
+ORDER BY p.Name ASC, c.Name ASC;
