@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Area">
+      <HintPath>bin\Debug\net6.0\Area.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
